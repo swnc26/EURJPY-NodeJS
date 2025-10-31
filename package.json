@@ -1,0 +1,20 @@
+{
+  "name": "eurjpy-node-bot",
+  "version": "1.0.0",
+  "description": "Telegram trading signal bot for EURJPY using Node.js and Yahoo Finance.",
+  "main": "eurjpy_bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node eurjpy_bot.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "yahoo-finance2": "^2.10.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "swnc26",
+  "license": "MIT"
+}
